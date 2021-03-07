@@ -1,0 +1,10 @@
+D:\000code\c#\counter_Framework\bin\Debug\counter_Framework.exe.config
+D:\000code\c#\counter_Framework\bin\Debug\counter_Framework.exe
+D:\000code\c#\counter_Framework\bin\Debug\counter_Framework.pdb
+D:\000code\c#\counter_Framework\obj\Debug\counter_Framework.csprojAssemblyReference.cache
+D:\000code\c#\counter_Framework\obj\Debug\counter_Framework.Form1.resources
+D:\000code\c#\counter_Framework\obj\Debug\counter_Framework.Properties.Resources.resources
+D:\000code\c#\counter_Framework\obj\Debug\counter_Framework.csproj.GenerateResource.cache
+D:\000code\c#\counter_Framework\obj\Debug\counter_Framework.csproj.CoreCompileInputs.cache
+D:\000code\c#\counter_Framework\obj\Debug\counter_Framework.exe
+D:\000code\c#\counter_Framework\obj\Debug\counter_Framework.pdb

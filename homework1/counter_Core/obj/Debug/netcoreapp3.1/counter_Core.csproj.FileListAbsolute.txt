@@ -1,0 +1,13 @@
+D:\000code\c#\counter_Core\bin\Debug\netcoreapp3.1\counter_Core.exe
+D:\000code\c#\counter_Core\bin\Debug\netcoreapp3.1\counter_Core.deps.json
+D:\000code\c#\counter_Core\bin\Debug\netcoreapp3.1\counter_Core.runtimeconfig.json
+D:\000code\c#\counter_Core\bin\Debug\netcoreapp3.1\counter_Core.runtimeconfig.dev.json
+D:\000code\c#\counter_Core\bin\Debug\netcoreapp3.1\counter_Core.dll
+D:\000code\c#\counter_Core\bin\Debug\netcoreapp3.1\counter_Core.pdb
+D:\000code\c#\counter_Core\obj\Debug\netcoreapp3.1\counter_Core.csprojAssemblyReference.cache
+D:\000code\c#\counter_Core\obj\Debug\netcoreapp3.1\counter_Core.AssemblyInfoInputs.cache
+D:\000code\c#\counter_Core\obj\Debug\netcoreapp3.1\counter_Core.AssemblyInfo.cs
+D:\000code\c#\counter_Core\obj\Debug\netcoreapp3.1\counter_Core.csproj.CoreCompileInputs.cache
+D:\000code\c#\counter_Core\obj\Debug\netcoreapp3.1\counter_Core.dll
+D:\000code\c#\counter_Core\obj\Debug\netcoreapp3.1\counter_Core.pdb
+D:\000code\c#\counter_Core\obj\Debug\netcoreapp3.1\counter_Core.genruntimeconfig.cache
