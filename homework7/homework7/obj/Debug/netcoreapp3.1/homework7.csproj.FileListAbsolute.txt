@@ -1,0 +1,15 @@
+E:\myCode\c#\homework7\homework7\bin\Debug\netcoreapp3.1\homework7.exe
+E:\myCode\c#\homework7\homework7\bin\Debug\netcoreapp3.1\homework7.deps.json
+E:\myCode\c#\homework7\homework7\bin\Debug\netcoreapp3.1\homework7.runtimeconfig.json
+E:\myCode\c#\homework7\homework7\bin\Debug\netcoreapp3.1\homework7.runtimeconfig.dev.json
+E:\myCode\c#\homework7\homework7\bin\Debug\netcoreapp3.1\homework7.dll
+E:\myCode\c#\homework7\homework7\bin\Debug\netcoreapp3.1\homework7.pdb
+E:\myCode\c#\homework7\homework7\obj\Debug\netcoreapp3.1\homework7.csprojAssemblyReference.cache
+E:\myCode\c#\homework7\homework7\obj\Debug\netcoreapp3.1\homework7.Form1.resources
+E:\myCode\c#\homework7\homework7\obj\Debug\netcoreapp3.1\homework7.csproj.GenerateResource.cache
+E:\myCode\c#\homework7\homework7\obj\Debug\netcoreapp3.1\homework7.AssemblyInfoInputs.cache
+E:\myCode\c#\homework7\homework7\obj\Debug\netcoreapp3.1\homework7.AssemblyInfo.cs
+E:\myCode\c#\homework7\homework7\obj\Debug\netcoreapp3.1\homework7.csproj.CoreCompileInputs.cache
+E:\myCode\c#\homework7\homework7\obj\Debug\netcoreapp3.1\homework7.dll
+E:\myCode\c#\homework7\homework7\obj\Debug\netcoreapp3.1\homework7.pdb
+E:\myCode\c#\homework7\homework7\obj\Debug\netcoreapp3.1\homework7.genruntimeconfig.cache
