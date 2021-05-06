@@ -1,0 +1,7 @@
+E:\myCode\c#\orderService\orderService\bin\Debug\orderService.exe.config
+E:\myCode\c#\orderService\orderService\bin\Debug\orderService.exe
+E:\myCode\c#\orderService\orderService\bin\Debug\orderService.pdb
+E:\myCode\c#\orderService\orderService\obj\Debug\orderService.csprojAssemblyReference.cache
+E:\myCode\c#\orderService\orderService\obj\Debug\orderService.csproj.CoreCompileInputs.cache
+E:\myCode\c#\orderService\orderService\obj\Debug\orderService.exe
+E:\myCode\c#\orderService\orderService\obj\Debug\orderService.pdb

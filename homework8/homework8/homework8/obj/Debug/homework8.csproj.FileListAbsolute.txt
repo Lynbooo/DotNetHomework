@@ -1,0 +1,16 @@
+E:\myCode\c#\homework8\homework8\bin\Debug\homework8.exe.config
+E:\myCode\c#\homework8\homework8\bin\Debug\homework8.exe
+E:\myCode\c#\homework8\homework8\bin\Debug\homework8.pdb
+E:\myCode\c#\homework8\homework8\bin\Debug\orderService.exe
+E:\myCode\c#\homework8\homework8\bin\Debug\orderService.pdb
+E:\myCode\c#\homework8\homework8\bin\Debug\orderService.exe.config
+E:\myCode\c#\homework8\homework8\obj\Debug\homework8.csprojAssemblyReference.cache
+E:\myCode\c#\homework8\homework8\obj\Debug\homework8.Form1.resources
+E:\myCode\c#\homework8\homework8\obj\Debug\homework8.FormModify.resources
+E:\myCode\c#\homework8\homework8\obj\Debug\homework8.Properties.Resources.resources
+E:\myCode\c#\homework8\homework8\obj\Debug\homework8.csproj.GenerateResource.cache
+E:\myCode\c#\homework8\homework8\obj\Debug\homework8.csproj.CoreCompileInputs.cache
+E:\myCode\c#\homework8\homework8\obj\Debug\homework8.csproj.CopyComplete
+E:\myCode\c#\homework8\homework8\obj\Debug\homework8.exe
+E:\myCode\c#\homework8\homework8\obj\Debug\homework8.pdb
+E:\myCode\c#\homework8\homework8\obj\Debug\homework8.FormDetailEdit.resources

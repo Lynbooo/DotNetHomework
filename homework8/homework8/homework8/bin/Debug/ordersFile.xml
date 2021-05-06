@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<ArrayOfOrder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Order>
+    <ClientInfo>
+      <ClientName>饼饼</ClientName>
+      <ClientTel>123456</ClientTel>
+      <ClientAddress>南宁</ClientAddress>
+    </ClientInfo>
+    <OrderId>1</OrderId>
+    <OrderAmount>0.8</OrderAmount>
+    <OrderDiscount>0.4</OrderDiscount>
+    <OrderCreateTime>2021-05-03T14:13:37.1602205+08:00</OrderCreateTime>
+    <OrderDetails>
+      <OrderDetails>
+        <GoodName>qq</GoodName>
+        <GoodPrice>1</GoodPrice>
+        <GoodNumber>2</GoodNumber>
+        <TotalAmount>2</TotalAmount>
+      </OrderDetails>
+    </OrderDetails>
+  </Order>
+</ArrayOfOrder>
