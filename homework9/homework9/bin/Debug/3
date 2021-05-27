@@ -48,7 +48,7 @@
     <script src="https://cdn.bootcdn.net/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
     <script type="text/javascript" src="https://cdn.bootcdn.net/ajax/libs/jquery-smoove/0.2.10/jquery.smoove.min.js"></script>
     
-        <script type="text/javascript" src="https://passport.baidu.com/passApi/js/uni_login_wrapper.js?cdnversion=202105131159"></script>
+        <script type="text/javascript" src="https://passport.baidu.com/passApi/js/uni_login_wrapper.js?cdnversion=202105272122"></script>
             <script type="text/javascript" src="/resources/pc/js/dist/common.min.js?timestamp=20181226"></script>
         <!--<![endif]-->
     <!--[if lt IE 9]>
@@ -243,7 +243,7 @@
                             <a href="http://www.bjjubao.org/" target="_blank">
                                 <p class="title">北京互联网举报中心</p>
                             </a>
-                            <p class="desc">北京互联网举报中心举报电话：010-67196565/010-67196566</p>
+                            <p class="desc">北京互联网举报中心举报电话：010-67196565</p>
                         </div>
                         <div style="clear: both;"></div>
                     </div>

@@ -6,7 +6,6 @@ using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Text.RegularExpressions;
-using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
@@ -14,45 +13,34 @@ namespace homework9
 {
     public partial class Form1 : Form
     {
-        Crawler crawler = new Crawler();
-        BindingSource resultBindingSourse = new BindingSource();
+        SimpleCrawler crawler = new SimpleCrawler();
+        BindingSource crawlerResultBindingSource = new BindingSource();
         public Form1()
         {
             InitializeComponent();
-            dataGridView_result.DataSource = resultBindingSourse;
-            crawler.CrawlerStopped += crawler_CrawlerStopped;
-            crawler.PageDownloaded += crawler_PageDownloaded;
+            dgv_result.DataSource = crawlerResultBindingSource;
+            crawler.CrawlerEnding += crawler_Ending;
+            crawler.ThisPageDownloaded += crawler_Downloaded;
         }
-        private void crawler_CrawlerStopped(Crawler obj)
+        private void crawler_Ending(SimpleCrawler crawler)
         {
-            Action action = () => lbl_info.Text = "停止爬取"; //Action封装方法
-            if (this.InvokeRequired) {//线程安全问题
-                this.Invoke(action);
-            }else {
-                action();
-            }
+            lbl_message.Text = "停止爬取";
         }
-        private void crawler_PageDownloaded(Crawler crawler, string url, string info)
+        private void crawler_Downloaded(SimpleCrawler crawler, string url, string message)
         {
-            var pageInfo = new { Index = resultBindingSourse.Count + 1, URL = url, INFO = info };//匿名类型
-            Action action = () => { resultBindingSourse.Add(pageInfo); };
-            if (this.InvokeRequired) {//线程安全问题
-                this.Invoke(action);
-            }else {
-                action();
-            }
+            var pageInfo = new { Index = crawlerResultBindingSource.Count + 1, URL = url, INFO = message };//匿名类型
+            crawlerResultBindingSource.Add(pageInfo);
         }
-        private void buttonStart_Click(object sender, EventArgs e)
+        private void btn_start_Click(object sender, EventArgs e)
         {
-            resultBindingSourse.Clear();
-            crawler.StartUrl = textBoxUrl.Text;
-            Match match = Regex.Match(crawler.StartUrl, Crawler.UrlParseRegex);
+            crawler.StartUrl = this.tb_url.Text;
+            Match match = Regex.Match(crawler.StartUrl, SimpleCrawler.UrlParseRegex);
             if (match.Length == 0) return;
             string host = match.Groups["host"].Value;
-            crawler.HostFilter = "^" + host + "$";
-            crawler.FileFilter = "((.html?|.aspx|.jsp|.php)$|^[^.]+$)";
-            new Thread(crawler.Crawl).Start();
-            lbl_info.Text = "爬虫启动";
+            crawler.HostFilterRegex = "^" + host + "$";
+            crawler.FileFilterRegex = @"((.html?|.aspx|.jsp|.php)$|^[^.]+$)";
+            crawler.Crawl();
+            lbl_message.Text = "爬虫启动";
         }
     }
 }
