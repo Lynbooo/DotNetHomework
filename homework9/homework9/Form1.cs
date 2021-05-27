@@ -6,6 +6,7 @@ using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Text.RegularExpressions;
+using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
@@ -15,6 +16,7 @@ namespace homework9
     {
         SimpleCrawler crawler = new SimpleCrawler();
         BindingSource crawlerResultBindingSource = new BindingSource();
+        Thread thread = null;
         public Form1()
         {
             InitializeComponent();
@@ -39,7 +41,12 @@ namespace homework9
             string host = match.Groups["host"].Value;
             crawler.HostFilterRegex = "^" + host + "$";
             crawler.FileFilterRegex = @"((.html?|.aspx|.jsp|.php)$|^[^.]+$)";
-            crawler.Crawl();
+            if (thread != null)
+            {
+                thread.Abort();
+            }
+            thread = new Thread(crawler.Crawl);
+            thread.Start();
             lbl_message.Text = "爬虫启动";
         }
     }
