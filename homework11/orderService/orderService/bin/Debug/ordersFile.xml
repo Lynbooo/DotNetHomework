@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<ArrayOfOrder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Order>
+    <ClientInfo>
+      <ClientName>lyn</ClientName>
+      <ClientTel>15527022090</ClientTel>
+      <ClientAddress>武汉大学信息学部学生宿舍三舍</ClientAddress>
+    </ClientInfo>
+    <OrderId>20214230</OrderId>
+    <OrderAmount>48</OrderAmount>
+    <OrderDiscount>0.8</OrderDiscount>
+    <OrderCreateTime>2021-04-23T10:33:32.7099982+08:00</OrderCreateTime>
+    <OrderDetails>
+      <OrderDetails>
+        <GoodName>qq</GoodName>
+        <GoodPrice>6</GoodPrice>
+        <GoodNumber>10</GoodNumber>
+        <TotalAmount>60</TotalAmount>
+      </OrderDetails>
+    </OrderDetails>
+  </Order>
+</ArrayOfOrder>
